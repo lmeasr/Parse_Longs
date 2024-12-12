@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotChocolateParseLong")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993676c13a42c03017335d85ad72bc9fea317023")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f5fe3ff91aace67e68e7d9ad0e740b830e14b57")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotChocolateParseLong")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotChocolateParseLong")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

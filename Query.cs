@@ -16,7 +16,7 @@ namespace HotChocolateParseLong
     }
 
     /// <summary>
-    /// The goal is that anywhere a long is specified as a input variable to a mutation, the schema
+    /// The goal is that anywhere a long is specified as an input variable to a mutation, the schema
     /// would be built with type ID since client-side everything is strings. 
     /// </summary>
     public class Mutation
@@ -32,7 +32,8 @@ namespace HotChocolateParseLong
         }
     }
     /// <summary>
-    /// This one does not work with List<long>
+    /// This one does not work with List<long>. It throws an exception at Line 139 of InputParser.cs. It tries to 
+    /// add the results of this ParseLiteral method, which is a long, to a List<string>. 
     /// </summary>
     //public class SnowflakeIdType : IdType
     //{
@@ -50,10 +51,11 @@ namespace HotChocolateParseLong
 
 
     /// <summary>
-    /// This does with with List<long>. But I need to use this constructor and string "ID" to get the schema to build with the IDType.
+    /// This does work with List<long>. But I need to use this constructor and name it "ID" to crossreference the IDType
+    /// and that doesn't seem right to me. 
     /// </summary>
     public class SnowflakeIdType : ScalarType<long>
-    {   
+    {
         public SnowflakeIdType() : base("ID")
         {
         }
