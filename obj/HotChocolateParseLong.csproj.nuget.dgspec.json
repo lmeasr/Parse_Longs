@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LeslieMartin\\OneDrive - ABC Software LLC\\Desktop\\HotChocolateParseLong\\HotChocolateParseLong.csproj": {}
+    "C:\\ABCcode\\parse_longs\\HotChocolateParseLong.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LeslieMartin\\OneDrive - ABC Software LLC\\Desktop\\HotChocolateParseLong\\HotChocolateParseLong.csproj": {
+    "C:\\ABCcode\\parse_longs\\HotChocolateParseLong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LeslieMartin\\OneDrive - ABC Software LLC\\Desktop\\HotChocolateParseLong\\HotChocolateParseLong.csproj",
+        "projectUniqueName": "C:\\ABCcode\\parse_longs\\HotChocolateParseLong.csproj",
         "projectName": "HotChocolateParseLong",
-        "projectPath": "C:\\Users\\LeslieMartin\\OneDrive - ABC Software LLC\\Desktop\\HotChocolateParseLong\\HotChocolateParseLong.csproj",
+        "projectPath": "C:\\ABCcode\\parse_longs\\HotChocolateParseLong.csproj",
         "packagesPath": "C:\\Users\\LeslieMartin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LeslieMartin\\OneDrive - ABC Software LLC\\Desktop\\HotChocolateParseLong\\obj\\",
+        "outputPath": "C:\\ABCcode\\parse_longs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
